@@ -1,0 +1,82 @@
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+	
+}
+
+
+
+.wrapper{
+	display:block;
+	width:524px;
+	background-color: #dbdbdb;
+	margin:0 auto;
+	padding: 20px 30px 20px 30px;
+}
+.photo {
+	display: block; 
+	margin: 0 auto;
+	width: 205px;
+	margin-top: 30px;
+}
+span {
+font-weight: 700;
+font-style: Arial;
+font-size: 20px;
+line-height: 22px;
+}
+
+.name {
+	font-size: 30px;
+	line-height: 32px;
+	font-weight: 700;
+	font-style: Arial;
+	margin-top: 30px;
+  text-align: center;
+  text-transform:uppercase;
+}
+
+.info,
+.desire,
+.profile {
+ border-bottom: 1px solid #c8c6c7;
+}
+
+li {
+	margin-left: 30px;
+}
+.position {
+	font-size:15px;
+	margin-top: 25px;
+	color: #5f5f5f;
+	padding-bottom: 25px;
+}
+.desire {
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+ul {
+margin-top: 25px;
+}
+.contacts {
+	margin-top: 20px;
+}
+.number {
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+.site {
+		padding-top: 25px;
+		margin-bottom: 20px;
+}
+.feedback {
+	margin-top: 20px;
+}
+.can {
+margin-top: 25px;
+}
+.number,
+.site,
+.can {
+	margin-left: 40px;
+}

@@ -1,0 +1,408 @@
+html, body, div, span, h1, h2, h3, h4, h5, h6, p, em, img, strong, sub, sup, b, u, i, dl, dt, dd, ol, ul, li, fieldset, form, label, table, tbody, tfoot, thead, tr, th, td {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  vertical-align: baseline;
+  background: transparent; }
+
+a {
+  margin: 0;
+  padding: 0;
+  vertical-align: baseline;
+  background: transparent;
+  text-decoration: none;
+  color: #000;
+  }
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0; }
+
+td, td img {
+  vertical-align: top; }
+
+input, select, button, textarea {
+  margin: 0;
+  font-size: 100%;
+  font-family: 'Roboto', Arial, sans-serif;
+  color: #737373; }
+
+input[type="checkbox"] {
+  vertical-align: bottom; }
+
+input[type="radio"] {
+  vertical-align: text-bottom; }
+
+sub {
+  vertical-align: sub;
+  font-size: smaller; }
+
+sup {
+  vertical-align: super;
+  font-size: smaller;
+}
+
+  .clearfix:after, .clearfix:before {
+  content: "";
+  clear: both;
+  display: block; }
+
+  /*Мои стили*/
+  
+  .header,
+  .service,
+  .content,
+  .down {
+    width: 945px;
+    margin: 0 auto;
+  }
+
+  .menu {
+    float: left;
+    padding: 30px 0px 40px 0px;
+  }
+
+  .top {
+    display: inline-block;
+    padding: 20px;
+  }
+
+  .triangle {
+    padding:10px 20px;
+    background: #00b5ed;
+    color: #ffffff;
+    border-radius: 5px;
+    position: relative;
+  }
+
+  .triangle :after {
+    position: absolute;
+    content:"";
+    left: 50%;
+    margin-left: -10px;
+    bottom: -20px;
+    border:10px solid transparent;
+    border-top: 10px solid #00b5ed;
+    border-right: 10px solid transparent;
+    border-left: 10px solid transparent;
+  }
+
+  .go {
+    color: #0071bb;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    text-decoration: underline;
+  }
+  li :hover {
+    text-decoration: none;
+  }
+  
+  .active {
+    background: #00b5ed;
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: #fff;
+    text-decoration: none;
+  }
+  
+  
+  .registration {
+    display: block;
+    float: right;
+    padding: 30px 0px 40px 0px;
+    /*position: relative;*/
+    font-size: 14px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+  }
+
+ .signin a {
+    color: #f80895;
+    border-bottom: 1px dashed #f80895;
+    text-decoration: none; 
+  }
+
+  .signin {
+    margin-bottom: 5px;
+    position: relative;
+  }
+
+  .lock {
+    background-image: url(../i/Lock.png);
+    height: 16px;
+    width: 12px;
+    position: absolute;
+    left: -20px;
+         
+  }
+  .signup a {
+    color: #999999;
+    border-bottom: 1px dashed #999999;
+    text-decoration: none;
+  }
+
+  .stripe {
+    background: #00baf0;
+    clear: both;
+  }
+
+  .service {
+    text-shadow: 0 -1px 0 #30332b;
+    color: #ffffff;
+    font-family: Arial;
+    font-size: 20px;
+    line-height: 30px;
+    padding: 10px 0px;
+  }
+
+  span {
+    font-weight: 700;
+  }
+  .content {
+    padding: 35px 0px 15px 0px; 
+  }
+  .convenient {
+    color: #333;
+    font-size: 21px;
+    font-weight: 400;
+    padding: 0px 0px 25px 0px;
+  }
+
+  .allow {
+    color: #333;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+  }
+
+  .left {
+    display: block;
+    float: left;
+  }
+
+  .why {
+/*    display: block;
+    float: left;*/
+    width: 404px;
+   
+  }
+
+
+  .points {
+    padding: 15px 0px 15px 30px;
+  }
+  .list {
+    list-style-image: url(../i/star.png);
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+     }
+  .benefits a {
+    color: #0071bb;
+    font-size: 13px;
+    font-weight: 400;
+    font-family: Arial, sans-serif;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+
+  .special {
+    display: block;
+    float: right;
+      }
+  .offer {
+    padding: 0px 0px 15px 0px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-size: 21px;
+    font-weight: 400;
+  }
+
+  .country {
+    padding: 8px 0px;
+    position: relative;
+  }
+
+  .details {
+    background: rgba(0,0,0,0.5);
+    position: absolute;
+    height: 40%;
+    width: 100%;
+    top: 64px;
+    border-radius: 5px;
+
+  }
+
+
+
+  .description {
+    text-shadow: 0 -1px 0 #30332b;
+    color: #ffffff;
+    font-family: Arial;
+    line-height: 16px;
+    font-size: 16px;
+    float: left;
+    padding:10px;
+
+  }
+
+  .price {
+     color: #fff000;
+    font-size: 18px;
+    font-weight: 700;
+    font-family: Arial, sans-serif;
+    float: right; 
+    padding: 10px;   
+  }
+
+  .india {
+    color: #00f0ff;
+  }
+
+  .fee {
+    text-shadow: 0 -1px 0 #30332b;
+    font-family: Arial, sans-serif;
+    line-height: 16px;
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 400;
+  }
+  .other {
+    padding-bottom: 38px;
+  }
+  .other a {
+    color: #0071bb;
+    font-family: Arial;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: underline;
+  }
+
+  .info {
+    display: block;
+    width: 440px;
+    height: 140px;
+    float: left;
+  }
+
+  .what {
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+    font-size: 21px;
+    padding: 25px 0px;
+  }
+
+  .booking {
+    font-size: 14px;
+    line-height: 20px;
+    color: #333;
+    font-family: Arial, sans-serif;
+    font-weight: 400;
+  }
+
+  .banner {
+    width: 945px;
+    height: 90px;
+    border: 1px solid #dcdcdc;
+    clear: both;
+    position: relative;
+  }
+
+  .long {
+    position: absolute;
+    top:40%;
+    left:40%;
+    opacity: 0.2;
+    color: #00baf0;
+    font-family: Arial;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 25px;
+  }
+
+  .advertisment a {
+    display: block;
+    clear: both;
+    color: #939393;
+    font-family: Arial;
+    font-size: 11px;
+    font-weight: 400;
+    line-height: 25px;
+    text-decoration: underline;
+  }
+
+  .down {
+    padding-top: 25px;
+  }
+
+  .contacts {
+    color: #666;
+    font-family: Arial;
+    font-size: 12px;
+    line-height: 16px;
+    display: block;
+    float: left;
+  }
+
+  .copyright {
+    padding-bottom: 20px;
+  }
+  .email {
+    color: #666666;
+  }
+
+   a {
+    text-decoration: underline;
+  }
+
+  .partners {
+    display: inline-block;
+    float: right;
+  }
+
+  .friend {
+    padding: 0px 10px;
+  }
+
+  .last {
+    display: block;
+    float: right;
+    padding: 20px 0px;
+  }
+
+  .socialnets {
+    float: left;
+    display: block;
+    padding: 0px 200px 0px 0px; 
+
+  }
+  .security {
+    float: right;
+    opacity: 0.6;
+    color: #666;
+    font-family: Arial;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 16px;
+    /*text-decoration: underline;*/
+  }
+  .footer {
+    border-top: 1px solid #ebebeb;
+    background: rgba(0,0,0,0.05);
+    padding-top: 15px;
+    /*height: 150px;*/
+  }
+
+  a:hover {
+    text-decoration: none;
+  }
+  .signup a:hover,
+  .signin a:hover {
+    border-bottom: 1px solid transparent;
+  }
+
+ 

@@ -1,0 +1,12 @@
+body {
+	background: green;
+}
+
+
+
+td {
+	width: 60px;
+	height: 60px;
+	background: red;
+	outline: 5px solid black;
+}

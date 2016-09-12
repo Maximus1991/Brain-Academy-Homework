@@ -1,0 +1,48 @@
+body {
+	background: black;
+}
+.menu {
+position: absolute;
+content: "";
+top: 30px;
+left: 30px;
+cursor: pointer;
+padding: 12px 0px;
+}
+
+.menu span {
+	position: relative;
+	display: block;
+	width: 20px;
+	height: 4px;
+	background: #fff;
+	-webkit-transition: all .2s ease-in-out;
+}
+
+.menu span:before, .menu span:after {
+	position: absolute;
+	content: "";
+	background: #fff;
+	width: 20px;
+	height: 4px;
+-webkit-transition: all .2s ease-in-out;
+}
+
+.menu span:before {
+	top: -8px;
+
+}
+.menu span:after {
+	top: 8px;
+}
+.menu.active span {
+	background: transparent;
+}
+
+.menu.active span:before {
+	-webkit-transform: rotate(45deg) translate(5px, 6px);
+}
+
+.menu.active span:after {
+	-webkit-transform: rotate(-45deg) translate(5px,-6px);
+}

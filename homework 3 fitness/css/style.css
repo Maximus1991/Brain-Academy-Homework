@@ -1,0 +1,168 @@
+body {
+	background: #f9f9f9;
+}
+
+.wrapper {
+	width: 1060px;
+	background: #ffffff;
+	margin: 0 auto;
+	border: 1px solid #dbdbdb;
+	box-shadow: 0 0 3px 1px rgba(0,0,0,0.5);
+}
+
+h1 {
+	padding: 50px 0 40px 0;
+}
+
+li {
+	list-style-type: none;
+}
+.bottom li,
+.top li {
+	display: inline-block;
+}
+
+.header,
+.menu,
+.content,
+.footer {
+	width: 966px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-family: Arial, sans-serif;
+	font-weight: 400;
+	font-size: 40px;
+	line-height: 42px;
+}
+
+.menu {
+	height: 40px;
+	background: linear-gradient(to top, #333, #666);
+}
+
+.top a {
+	text-shadow: 0.5px 0.9px 1px rgba(0, 0, 0, 0.5);
+	color: white;
+	font-family: OpenSans;
+	font-size: 15px;
+	font-weight: 400;
+	line-height: 17px;
+}
+
+.top li {
+	padding: 10px 40px;
+	border-left: 1px solid transparent;
+	border-right: 1px solid transparent;
+
+}	
+
+.top li:hover {
+	background: #333333;
+	border-left: 1px solid #838383;
+	border-right: 1px solid #838383;
+}
+
+.content {
+	padding-top: 40px;
+}
+
+.aside {
+	display: block;
+	float: left;
+	border: 1px solid #c8c8c8;
+	width: 240px;
+}
+.side li {
+	border-bottom: 1px solid #c8c8c8;
+	font-family: OpenSans, sans-serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+	padding: 15px 0 10px 20px;
+}
+
+.side li:last-child {
+	border-bottom: none;
+}
+
+.side a {
+	color: #656363;
+}
+
+.side li:hover a {
+	color: #2c2c2c;
+	padding: 15px 0 10px 35px;
+	
+}
+
+.side li:hover {
+	background: #f9f9f9;
+}
+
+.picture {
+	display: block;
+	float: right;
+	border: 1px solid #c8c8c8;
+	width: 678px;
+	height: 400px;
+	position: relative;
+	overflow: hidden;
+}
+
+.bike {
+	position: absolute;
+	left: 32px;
+	top: -25px;
+}
+
+.description {
+	display: block;
+	clear: both;
+	width: 630px;
+	float: right;
+	padding: 40px 030px 60px 25px;
+}
+
+.footer {
+	display: block;
+	clear: both;
+	background: #e1e1e1;
+	margin-bottom: 60px;
+}
+
+.bottom {
+	display: block;
+	float: left;
+}
+
+.copyright {
+	float: right;
+	padding: 12px 25px 12px 0;
+}
+
+.bottom li {
+	display: inline-block;
+	padding: 7px 40px;
+}
+
+.bottom a {
+	color: #2c2c2c;
+	font-family: OpenSans;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 26px;
+}
+
+.bottom a:hover {
+	text-decoration: underline;
+}
+
+p {
+	color: #2c2c2c;
+	font-family: OpenSans, serif;
+	font-size: 14px;
+	font-weight: 400;
+	line-height: 16px;
+}
