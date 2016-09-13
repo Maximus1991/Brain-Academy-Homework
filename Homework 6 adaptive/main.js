@@ -6,8 +6,15 @@ $(document).ready(function(){
   });
 });
 
-// $('.burger_menu').click(function (){
-// 	$(this).toggleClass('submenu');
-// 	return false;
-// });
+
+$(".burger_menu").click(function(){
+ $(".list").toggleClass('active');
+});
+
+$('.burger_menu').click(function (){
+	$(this).toggleClass('submenu');
+	return false;
+});
+
+
 
